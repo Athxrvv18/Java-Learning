@@ -13,3 +13,4 @@ public class decimal {
         System.out.println("NO IS " + b + " " + dec);
     }
 }
+// dailyy
