@@ -3,7 +3,7 @@ public class inverterHalfNo {
     public static void inverterHalfNo(int n){
 
         for(int i=0; i<=n; i++ ){
-            for(int j= 0; j<= i-n; j++){
+            for(int j= 1; j<=n-i; j++){
                 System.out.print(j);
             }
             System.out.println();
@@ -13,6 +13,6 @@ public class inverterHalfNo {
 
     public static void main(String[] args) {
         
-        inverterHalfNo(4);
-    }
+        inverterHalfNo(5);
+    }   
 }
